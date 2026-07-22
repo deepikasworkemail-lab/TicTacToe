@@ -1,32 +1,61 @@
-# React + TypeScript + Vite
+# Tic Tac Toe Game
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A simple Tic Tac Toe game built using **React** and **TypeScript**.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+* Two-player game (X and O)
+* Winner detection
+* Prevents selecting an already occupied box
+* Play Again option
+* Responsive and simple UI
 
-## React Compiler
+## Technologies Used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* React
+* TypeScript
+* Vite
+* CSS
 
-## Expanding the Oxlint configuration
+## Getting Started
 
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
+1. Clone the repository:
 
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
+```bash
+git clone https://github.com/deepikasworkemail-lab/TicTacToe.git
 ```
 
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+2. Navigate to the project folder:
+
+```bash
+cd TicTacToe
+```
+
+3. Install dependencies:
+
+```bash
+npm install
+```
+
+4. Start the development server:
+
+```bash
+npm run dev
+```
+
+5. Open your browser and visit:
+
+```
+http://localhost:5173
+```
+
+## How to Play
+
+* Player **X** starts first.
+* Players take turns placing **X** and **O** on the board.
+* The first player to get three symbols in a row (horizontal, vertical, or diagonal) wins.
+* Click **Play Again** to start a new game.
+
+## Author
+
+**Deepika**
