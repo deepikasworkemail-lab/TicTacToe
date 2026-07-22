@@ -1,0 +1,105 @@
+/* Whole Page */
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #141e30, #243b55);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Main Container */
+.board-container {
+  background: #1f2937;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 0 25px rgba(0, 255, 255, 0.25);
+  text-align: center;
+}
+
+/* Heading */
+.game-title {
+  color: white;
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.turn {
+  color: #38bdf8;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.winner {
+  color: #22c55e;
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* Board */
+.board-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Box */
+.box-style {
+  width: 110px;
+  height: 110px;
+  border: 2px solid #38bdf8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #111827;
+  cursor: pointer;
+  transition: 0.3s;
+  margin: 5px;
+  border-radius: 12px;
+}
+
+.box-style:hover {
+  background: #1e3a8a;
+  transform: scale(1.05);
+  box-shadow: 0 0 15px #38bdf8;
+}
+
+/* X and O */
+.box-style h4 {
+  font-size: 50px;
+  margin: 0;
+  color: white;
+}
+
+/* Reset Button */
+.play-btn {
+  margin-top: 25px;
+  padding: 12px 28px;
+  font-size: 18px;
+  border: none;
+  border-radius: 8px;
+  background: #0ea5e9;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.play-btn:hover {
+  background: #0284c7;
+  transform: scale(1.05);
+}
+
+.draw {
+  color: #facc15;
+  font-size: 28px;
+  margin-top: 20px;
+}
+
+.draw-text {
+  color: white;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
